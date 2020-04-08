@@ -2,7 +2,7 @@
 
 FreezeNet is an attempt at making Proof of Work more computationally useful than it currently is. The idea is to replace [Hashcash](http://www.hashcash.org/)-like challenges with neural network training. This is not a fully-implemented alternative but only a proof of concept which was presented for a Data Mining project at the University of Stavanger. However, the results are encouraging so it seems worth sharing. Pull requests, questions and criticism are welcome.
 
-The paper explaning this project in more detail will be available by the end of April.
+For more information, you can read the [temporary paper explaining this project](freezenet_paper.pdf) or [the slides presenting it](freezenet_presentation.pdf). The definitive versions will be available by the end of April.
 
 ## Simple API
 
