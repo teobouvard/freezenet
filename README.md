@@ -11,7 +11,7 @@ You can apply a watermark to a model at any point.
 ```python
 model = FreezeNet()
 
-some_signature    = Signature(b'Some block information', 4096)
+some_signature = Signature(b'Some block information', 4096)
 another_signature = Signature(b'Some other block information', 4096)
 
 some_signature.sign(model)
@@ -31,6 +31,7 @@ You can also train a model with a watermark.
 model = FreezeNet()
 some_signature = Signature(b'Some block information', 4096)
 model.fit(x_train, y_train, **train_parameters, signature=some_signature)
+some_signature.verify(model) # True
 ```
 
 
