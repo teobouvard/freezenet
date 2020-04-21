@@ -2,7 +2,7 @@
 
 FreezeNet is an attempt at making Proof of Work more computationally useful than it currently is. The idea is to replace [Hashcash](http://www.hashcash.org/)-like challenges with neural network training. This is not a fully-implemented alternative but only a proof of concept which was presented for a Data Mining project at the University of Stavanger. However, the results are encouraging so it seems worth sharing. Pull requests, questions and criticism are welcome.
 
-For more information, you can read the [temporary paper explaining this project](freezenet_paper.pdf) or [the slides presenting it](freezenet_presentation.pdf). The definitive versions will be available by the end of April.
+For more information, you can read the [paper explaining this project](freezenet_paper.pdf) or take a look at [the slides presenting it](freezenet_presentation.pdf).
 
 ## Simple API
 
@@ -34,7 +34,6 @@ model.fit(x_train, y_train, **train_parameters, signature=some_signature)
 some_signature.verify(model) # True
 ```
 
-
 ## Learning ability
 
 ![learning ability](assets/learning_ability.png)
@@ -46,3 +45,14 @@ some_signature.verify(model) # True
 ## Strong tampering resistance
 
 ![strong tampering resistance](assets/strong_tampering.png)
+
+## Cite this work
+
+```
+@misc{freezenet20,
+    author    = "Téo Bouvard",
+    title     = "Freezenet: Making proof-of-work more useful",
+    url       = "https://github.com/teobouvard/freezenet"
+}
+
+```
